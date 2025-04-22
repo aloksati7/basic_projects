@@ -103,3 +103,38 @@ html ,body{
     color: #ffffff;
 }
 
+.video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+  }
+  
+  .video-overlay {
+    position: relative;
+    top: 70px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-top: 30vh;
+
+    
+  }
+
+
+  
+  
